@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  height: 100vh;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  align-items: flex-start; /* Align items at the top within the container */
+  padding: 20px;
+}
+
+#leftPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+#wookieInformation {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#bigWookie {
+  width: 500px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: flex-start;
+}
+
+#buttonContainer button {
+  padding: 10px;
+  background-color: #4cafaf;
+  color: white;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#buttonContainer button:hover {
+  background-color: #4cafaf;
+}
